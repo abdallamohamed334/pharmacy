@@ -39,13 +39,29 @@ It combines **Batch Processing** and **Real-time Streaming** to provide:
 
 ## 🔄 Architecture  
 
-```mermaid
-flowchart TD
-    A[Fake Data Generator] --> B1[Batch via Spark → HDFS]
-    A --> B2[Streaming via Kafka → HDFS Archive]
+![Architecture Diagram](pharmacy.drawio.png)  
 
-    B2 --> C1[Spark → ClickHouse → Streamlit Dashboard]
-    B1 --> C2[Spark → PostgreSQL → Grafana Dashboard]
+---
 
-    C1 --> D1[Real-time Alerts 🚨]
-    C2 --> D2[Historical Analytics 📊]
+## 📊 Features  
+
+✅ **Real-time Monitoring (Streamlit)**  
+- Current stock levels by pharmacy/region.  
+- Shortage & outage detection.  
+- Instant alerts for missing drugs.  
+
+✅ **Batch Analytics (Grafana)**  
+- Long-term drug consumption trends.  
+- Regional comparison of pharmacies.  
+- Top-selling drugs & historical patterns.  
+
+---
+
+## 🚀 Getting Started  
+
+### 1️⃣ Start Required Services  
+Ensure **Kafka, Spark, HDFS, ClickHouse, PostgreSQL** are running. (Docker Compose recommended).  
+
+### 2️⃣ Generate Fake Data  
+```bash
+python data_generator.py
