@@ -1,0 +1,10 @@
+columns format version: 1
+8 columns:
+`pharmacy_id` Int32
+`pharmacy_name` String
+`city` String
+`med_name` String
+`med_code` Int32
+`available` UInt8
+`stock_qty` Int32
+`timestamp` DateTime64(3)

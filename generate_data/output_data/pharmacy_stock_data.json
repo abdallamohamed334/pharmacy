@@ -1,0 +1,1002 @@
+[
+    {
+        "pharmacy_id": 667,
+        "pharmacy_name": "Huff, Jackson and Cox",
+        "city": "Mansoura",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": true,
+        "stock_qty": 42,
+        "timestamp": "2025-09-18T08:23:03.537353"
+    },
+    {
+        "pharmacy_id": 792,
+        "pharmacy_name": "Johnson Ltd",
+        "city": "Aswan",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.537814"
+    },
+    {
+        "pharmacy_id": 395,
+        "pharmacy_name": "Bell-Osborne",
+        "city": "Aswan",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": true,
+        "stock_qty": 33,
+        "timestamp": "2025-09-18T08:23:03.538458"
+    },
+    {
+        "pharmacy_id": 643,
+        "pharmacy_name": "Lozano, Brown and Richardson",
+        "city": "Mansoura",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.538882"
+    },
+    {
+        "pharmacy_id": 953,
+        "pharmacy_name": "Schroeder PLC",
+        "city": "Alexandria",
+        "med_name": "Sertraline",
+        "med_code": 1019,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.539055"
+    },
+    {
+        "pharmacy_id": 901,
+        "pharmacy_name": "Dennis, Perkins and Rios",
+        "city": "Giza",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": true,
+        "stock_qty": 7,
+        "timestamp": "2025-09-18T08:23:03.539407"
+    },
+    {
+        "pharmacy_id": 381,
+        "pharmacy_name": "Martinez-Robinson",
+        "city": "gharbia",
+        "med_name": "Ciprofloxacin",
+        "med_code": 1009,
+        "available": true,
+        "stock_qty": 37,
+        "timestamp": "2025-09-18T08:23:03.539637"
+    },
+    {
+        "pharmacy_id": 534,
+        "pharmacy_name": "Smith, Mejia and Lloyd",
+        "city": "portsaid",
+        "med_name": "Gabapentin",
+        "med_code": 1018,
+        "available": true,
+        "stock_qty": 19,
+        "timestamp": "2025-09-18T08:23:03.540016"
+    },
+    {
+        "pharmacy_id": 571,
+        "pharmacy_name": "Black-Carroll",
+        "city": "Cairo",
+        "med_name": "Lisinopril",
+        "med_code": 1010,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.540416"
+    },
+    {
+        "pharmacy_id": 606,
+        "pharmacy_name": "Spencer Inc",
+        "city": "Cairo",
+        "med_name": "Azithromycin",
+        "med_code": 1017,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.540869"
+    },
+    {
+        "pharmacy_id": 489,
+        "pharmacy_name": "Barnes-Hernandez",
+        "city": "Aswan",
+        "med_name": "Insulin",
+        "med_code": 1001,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.541925"
+    },
+    {
+        "pharmacy_id": 529,
+        "pharmacy_name": "Turner LLC",
+        "city": "Aswan",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": true,
+        "stock_qty": 8,
+        "timestamp": "2025-09-18T08:23:03.542418"
+    },
+    {
+        "pharmacy_id": 206,
+        "pharmacy_name": "Martin Inc",
+        "city": "Alexandria",
+        "med_name": "Azithromycin",
+        "med_code": 1017,
+        "available": true,
+        "stock_qty": 15,
+        "timestamp": "2025-09-18T08:23:03.543102"
+    },
+    {
+        "pharmacy_id": 904,
+        "pharmacy_name": "Graham LLC",
+        "city": "Aswan",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.543391"
+    },
+    {
+        "pharmacy_id": 618,
+        "pharmacy_name": "Jackson-Harvey",
+        "city": "Cairo",
+        "med_name": "Prednisone",
+        "med_code": 1013,
+        "available": true,
+        "stock_qty": 49,
+        "timestamp": "2025-09-18T08:23:03.543942"
+    },
+    {
+        "pharmacy_id": 489,
+        "pharmacy_name": "Flores Group",
+        "city": "portsaid",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.544459"
+    },
+    {
+        "pharmacy_id": 185,
+        "pharmacy_name": "Price, Haley and Mcgee",
+        "city": "Alexandria",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.545844"
+    },
+    {
+        "pharmacy_id": 561,
+        "pharmacy_name": "Lambert Ltd",
+        "city": "Giza",
+        "med_name": "Ciprofloxacin",
+        "med_code": 1009,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.546228"
+    },
+    {
+        "pharmacy_id": 717,
+        "pharmacy_name": "Maldonado, Figueroa and Clark",
+        "city": "gharbia",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.547270"
+    },
+    {
+        "pharmacy_id": 362,
+        "pharmacy_name": "Hammond Inc",
+        "city": "portsaid",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": true,
+        "stock_qty": 23,
+        "timestamp": "2025-09-18T08:23:03.547682"
+    },
+    {
+        "pharmacy_id": 716,
+        "pharmacy_name": "Alvarez Group",
+        "city": "Aswan",
+        "med_name": "Sertraline",
+        "med_code": 1019,
+        "available": true,
+        "stock_qty": 12,
+        "timestamp": "2025-09-18T08:23:03.548055"
+    },
+    {
+        "pharmacy_id": 671,
+        "pharmacy_name": "Cook PLC",
+        "city": "Giza",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": true,
+        "stock_qty": 6,
+        "timestamp": "2025-09-18T08:23:03.548471"
+    },
+    {
+        "pharmacy_id": 351,
+        "pharmacy_name": "Bennett LLC",
+        "city": "Giza",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": true,
+        "stock_qty": 28,
+        "timestamp": "2025-09-18T08:23:03.549269"
+    },
+    {
+        "pharmacy_id": 605,
+        "pharmacy_name": "Taylor, Adams and Christensen",
+        "city": "Alexandria",
+        "med_name": "Simvastatin",
+        "med_code": 1015,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.549850"
+    },
+    {
+        "pharmacy_id": 346,
+        "pharmacy_name": "Wiggins, Francis and Chapman",
+        "city": "Aswan",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": true,
+        "stock_qty": 26,
+        "timestamp": "2025-09-18T08:23:03.551034"
+    },
+    {
+        "pharmacy_id": 275,
+        "pharmacy_name": "Carroll LLC",
+        "city": "portsaid",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": true,
+        "stock_qty": 20,
+        "timestamp": "2025-09-18T08:23:03.551426"
+    },
+    {
+        "pharmacy_id": 518,
+        "pharmacy_name": "Orr Group",
+        "city": "Cairo",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.551742"
+    },
+    {
+        "pharmacy_id": 707,
+        "pharmacy_name": "Huffman-Martin",
+        "city": "Aswan",
+        "med_name": "Gabapentin",
+        "med_code": 1018,
+        "available": true,
+        "stock_qty": 37,
+        "timestamp": "2025-09-18T08:23:03.552250"
+    },
+    {
+        "pharmacy_id": 913,
+        "pharmacy_name": "Kane Inc",
+        "city": "Aswan",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": true,
+        "stock_qty": 47,
+        "timestamp": "2025-09-18T08:23:03.552493"
+    },
+    {
+        "pharmacy_id": 342,
+        "pharmacy_name": "Smith Inc",
+        "city": "Giza",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": true,
+        "stock_qty": 43,
+        "timestamp": "2025-09-18T08:23:03.552731"
+    },
+    {
+        "pharmacy_id": 828,
+        "pharmacy_name": "Obrien, Long and Harvey",
+        "city": "gharbia",
+        "med_name": "Gabapentin",
+        "med_code": 1018,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.553360"
+    },
+    {
+        "pharmacy_id": 568,
+        "pharmacy_name": "Frazier-Medina",
+        "city": "Cairo",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": true,
+        "stock_qty": 19,
+        "timestamp": "2025-09-18T08:23:03.554006"
+    },
+    {
+        "pharmacy_id": 110,
+        "pharmacy_name": "Simpson, Nunez and Zimmerman",
+        "city": "gharbia",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.554839"
+    },
+    {
+        "pharmacy_id": 536,
+        "pharmacy_name": "Scott LLC",
+        "city": "Aswan",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": true,
+        "stock_qty": 16,
+        "timestamp": "2025-09-18T08:23:03.555205"
+    },
+    {
+        "pharmacy_id": 736,
+        "pharmacy_name": "Armstrong, Moore and Deleon",
+        "city": "Cairo",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.555944"
+    },
+    {
+        "pharmacy_id": 221,
+        "pharmacy_name": "Vega-West",
+        "city": "Cairo",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": true,
+        "stock_qty": 25,
+        "timestamp": "2025-09-18T08:23:03.556845"
+    },
+    {
+        "pharmacy_id": 746,
+        "pharmacy_name": "Parker, Trevino and Mays",
+        "city": "portsaid",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": true,
+        "stock_qty": 19,
+        "timestamp": "2025-09-18T08:23:03.558694"
+    },
+    {
+        "pharmacy_id": 978,
+        "pharmacy_name": "Lawson, Davis and Rodriguez",
+        "city": "Mansoura",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": true,
+        "stock_qty": 13,
+        "timestamp": "2025-09-18T08:23:03.560013"
+    },
+    {
+        "pharmacy_id": 878,
+        "pharmacy_name": "Mendez, Farley and Keith",
+        "city": "Mansoura",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.562207"
+    },
+    {
+        "pharmacy_id": 923,
+        "pharmacy_name": "Mitchell-Rivera",
+        "city": "Giza",
+        "med_name": "Simvastatin",
+        "med_code": 1015,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.563009"
+    },
+    {
+        "pharmacy_id": 584,
+        "pharmacy_name": "Rojas-Harris",
+        "city": "Aswan",
+        "med_name": "Amoxicillin",
+        "med_code": 1006,
+        "available": true,
+        "stock_qty": 25,
+        "timestamp": "2025-09-18T08:23:03.563815"
+    },
+    {
+        "pharmacy_id": 991,
+        "pharmacy_name": "Vasquez-Hardin",
+        "city": "Giza",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.564605"
+    },
+    {
+        "pharmacy_id": 346,
+        "pharmacy_name": "Orr-Hines",
+        "city": "portsaid",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.565381"
+    },
+    {
+        "pharmacy_id": 825,
+        "pharmacy_name": "Lopez PLC",
+        "city": "gharbia",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": true,
+        "stock_qty": 43,
+        "timestamp": "2025-09-18T08:23:03.566059"
+    },
+    {
+        "pharmacy_id": 557,
+        "pharmacy_name": "Lloyd-Owens",
+        "city": "gharbia",
+        "med_name": "Ciprofloxacin",
+        "med_code": 1009,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.566437"
+    },
+    {
+        "pharmacy_id": 792,
+        "pharmacy_name": "Pacheco, Meyers and Conrad",
+        "city": "Cairo",
+        "med_name": "Lisinopril",
+        "med_code": 1010,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.567344"
+    },
+    {
+        "pharmacy_id": 485,
+        "pharmacy_name": "Rice, Murphy and Peters",
+        "city": "Mansoura",
+        "med_name": "Gabapentin",
+        "med_code": 1018,
+        "available": true,
+        "stock_qty": 38,
+        "timestamp": "2025-09-18T08:23:03.567968"
+    },
+    {
+        "pharmacy_id": 939,
+        "pharmacy_name": "Roy-Poole",
+        "city": "gharbia",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": true,
+        "stock_qty": 41,
+        "timestamp": "2025-09-18T08:23:03.568239"
+    },
+    {
+        "pharmacy_id": 721,
+        "pharmacy_name": "Ross Inc",
+        "city": "Aswan",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.568478"
+    },
+    {
+        "pharmacy_id": 714,
+        "pharmacy_name": "Warner, Garza and Fuller",
+        "city": "gharbia",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.568980"
+    },
+    {
+        "pharmacy_id": 445,
+        "pharmacy_name": "Lewis-Jefferson",
+        "city": "Giza",
+        "med_name": "Simvastatin",
+        "med_code": 1015,
+        "available": true,
+        "stock_qty": 3,
+        "timestamp": "2025-09-18T08:23:03.569413"
+    },
+    {
+        "pharmacy_id": 533,
+        "pharmacy_name": "Bryant, Molina and Willis",
+        "city": "Cairo",
+        "med_name": "Gabapentin",
+        "med_code": 1018,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.569957"
+    },
+    {
+        "pharmacy_id": 485,
+        "pharmacy_name": "Clark-Neal",
+        "city": "Aswan",
+        "med_name": "Insulin",
+        "med_code": 1001,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.570236"
+    },
+    {
+        "pharmacy_id": 745,
+        "pharmacy_name": "King, Jimenez and Villa",
+        "city": "Mansoura",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": true,
+        "stock_qty": 21,
+        "timestamp": "2025-09-18T08:23:03.570714"
+    },
+    {
+        "pharmacy_id": 448,
+        "pharmacy_name": "Chaney LLC",
+        "city": "Cairo",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.570870"
+    },
+    {
+        "pharmacy_id": 304,
+        "pharmacy_name": "Kemp PLC",
+        "city": "portsaid",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.571289"
+    },
+    {
+        "pharmacy_id": 160,
+        "pharmacy_name": "Smith LLC",
+        "city": "portsaid",
+        "med_name": "Augmentin",
+        "med_code": 1003,
+        "available": true,
+        "stock_qty": 34,
+        "timestamp": "2025-09-18T08:23:03.571779"
+    },
+    {
+        "pharmacy_id": 822,
+        "pharmacy_name": "Simmons, Byrd and Hayes",
+        "city": "Cairo",
+        "med_name": "Simvastatin",
+        "med_code": 1015,
+        "available": true,
+        "stock_qty": 7,
+        "timestamp": "2025-09-18T08:23:03.572629"
+    },
+    {
+        "pharmacy_id": 758,
+        "pharmacy_name": "Wagner LLC",
+        "city": "portsaid",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": true,
+        "stock_qty": 8,
+        "timestamp": "2025-09-18T08:23:03.573234"
+    },
+    {
+        "pharmacy_id": 890,
+        "pharmacy_name": "Young LLC",
+        "city": "portsaid",
+        "med_name": "Ibuprofen",
+        "med_code": 1005,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.573967"
+    },
+    {
+        "pharmacy_id": 439,
+        "pharmacy_name": "Miller-Scott",
+        "city": "gharbia",
+        "med_name": "Insulin",
+        "med_code": 1001,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.574846"
+    },
+    {
+        "pharmacy_id": 176,
+        "pharmacy_name": "Rowe, Johnson and Rios",
+        "city": "Giza",
+        "med_name": "Amoxicillin",
+        "med_code": 1006,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.576052"
+    },
+    {
+        "pharmacy_id": 119,
+        "pharmacy_name": "Brown-Weaver",
+        "city": "Aswan",
+        "med_name": "Amlodipine",
+        "med_code": 1012,
+        "available": true,
+        "stock_qty": 23,
+        "timestamp": "2025-09-18T08:23:03.577192"
+    },
+    {
+        "pharmacy_id": 112,
+        "pharmacy_name": "Hoover-Torres",
+        "city": "portsaid",
+        "med_name": "Amoxicillin",
+        "med_code": 1006,
+        "available": true,
+        "stock_qty": 3,
+        "timestamp": "2025-09-18T08:23:03.577872"
+    },
+    {
+        "pharmacy_id": 578,
+        "pharmacy_name": "Terry LLC",
+        "city": "Giza",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.578097"
+    },
+    {
+        "pharmacy_id": 271,
+        "pharmacy_name": "Henson, Ruiz and Diaz",
+        "city": "Cairo",
+        "med_name": "Augmentin",
+        "med_code": 1003,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.578587"
+    },
+    {
+        "pharmacy_id": 893,
+        "pharmacy_name": "Rosales PLC",
+        "city": "Giza",
+        "med_name": "Amlodipine",
+        "med_code": 1012,
+        "available": true,
+        "stock_qty": 22,
+        "timestamp": "2025-09-18T08:23:03.578734"
+    },
+    {
+        "pharmacy_id": 565,
+        "pharmacy_name": "Hernandez, Jones and Hill",
+        "city": "Giza",
+        "med_name": "Amlodipine",
+        "med_code": 1012,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.579192"
+    },
+    {
+        "pharmacy_id": 207,
+        "pharmacy_name": "House-Blackwell",
+        "city": "Giza",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": true,
+        "stock_qty": 28,
+        "timestamp": "2025-09-18T08:23:03.579874"
+    },
+    {
+        "pharmacy_id": 197,
+        "pharmacy_name": "Robertson, Lang and Martinez",
+        "city": "Alexandria",
+        "med_name": "Prednisone",
+        "med_code": 1013,
+        "available": true,
+        "stock_qty": 19,
+        "timestamp": "2025-09-18T08:23:03.580380"
+    },
+    {
+        "pharmacy_id": 322,
+        "pharmacy_name": "Rodriguez Group",
+        "city": "gharbia",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": true,
+        "stock_qty": 10,
+        "timestamp": "2025-09-18T08:23:03.580612"
+    },
+    {
+        "pharmacy_id": 891,
+        "pharmacy_name": "Schaefer-Johnson",
+        "city": "gharbia",
+        "med_name": "Simvastatin",
+        "med_code": 1015,
+        "available": true,
+        "stock_qty": 36,
+        "timestamp": "2025-09-18T08:23:03.581017"
+    },
+    {
+        "pharmacy_id": 519,
+        "pharmacy_name": "Anthony-Mosley",
+        "city": "Giza",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": true,
+        "stock_qty": 41,
+        "timestamp": "2025-09-18T08:23:03.581935"
+    },
+    {
+        "pharmacy_id": 226,
+        "pharmacy_name": "Ford, Holder and Perkins",
+        "city": "Mansoura",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": true,
+        "stock_qty": 18,
+        "timestamp": "2025-09-18T08:23:03.582420"
+    },
+    {
+        "pharmacy_id": 465,
+        "pharmacy_name": "Harper, Daniel and Walker",
+        "city": "gharbia",
+        "med_name": "Atorvastatin",
+        "med_code": 1011,
+        "available": true,
+        "stock_qty": 10,
+        "timestamp": "2025-09-18T08:23:03.582971"
+    },
+    {
+        "pharmacy_id": 954,
+        "pharmacy_name": "Hickman PLC",
+        "city": "Aswan",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.583258"
+    },
+    {
+        "pharmacy_id": 123,
+        "pharmacy_name": "Lee LLC",
+        "city": "Cairo",
+        "med_name": "Paracetamol",
+        "med_code": 1002,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.583514"
+    },
+    {
+        "pharmacy_id": 124,
+        "pharmacy_name": "Lopez, Anderson and Adams",
+        "city": "Mansoura",
+        "med_name": "Prednisone",
+        "med_code": 1013,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.584023"
+    },
+    {
+        "pharmacy_id": 114,
+        "pharmacy_name": "Diaz PLC",
+        "city": "Alexandria",
+        "med_name": "Sertraline",
+        "med_code": 1019,
+        "available": true,
+        "stock_qty": 10,
+        "timestamp": "2025-09-18T08:23:03.584168"
+    },
+    {
+        "pharmacy_id": 880,
+        "pharmacy_name": "Taylor, Green and Herrera",
+        "city": "Alexandria",
+        "med_name": "Ventolin",
+        "med_code": 1004,
+        "available": true,
+        "stock_qty": 10,
+        "timestamp": "2025-09-18T08:23:03.584631"
+    },
+    {
+        "pharmacy_id": 862,
+        "pharmacy_name": "Mason-Francis",
+        "city": "gharbia",
+        "med_name": "Levothyroxine",
+        "med_code": 1016,
+        "available": true,
+        "stock_qty": 11,
+        "timestamp": "2025-09-18T08:23:03.585012"
+    },
+    {
+        "pharmacy_id": 915,
+        "pharmacy_name": "Moreno-Obrien",
+        "city": "gharbia",
+        "med_name": "Amoxicillin",
+        "med_code": 1006,
+        "available": true,
+        "stock_qty": 35,
+        "timestamp": "2025-09-18T08:23:03.585451"
+    },
+    {
+        "pharmacy_id": 227,
+        "pharmacy_name": "Smith-Mason",
+        "city": "Cairo",
+        "med_name": "Zolpidem",
+        "med_code": 1020,
+        "available": true,
+        "stock_qty": 27,
+        "timestamp": "2025-09-18T08:23:03.585710"
+    },
+    {
+        "pharmacy_id": 155,
+        "pharmacy_name": "Mathis, Spencer and Smith",
+        "city": "Cairo",
+        "med_name": "Amlodipine",
+        "med_code": 1012,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.586144"
+    },
+    {
+        "pharmacy_id": 290,
+        "pharmacy_name": "Serrano-Roberson",
+        "city": "Giza",
+        "med_name": "Amoxicillin",
+        "med_code": 1006,
+        "available": true,
+        "stock_qty": 10,
+        "timestamp": "2025-09-18T08:23:03.586412"
+    },
+    {
+        "pharmacy_id": 383,
+        "pharmacy_name": "Cervantes LLC",
+        "city": "Giza",
+        "med_name": "Ibuprofen",
+        "med_code": 1005,
+        "available": true,
+        "stock_qty": 6,
+        "timestamp": "2025-09-18T08:23:03.586655"
+    },
+    {
+        "pharmacy_id": 682,
+        "pharmacy_name": "Day, Blankenship and Mills",
+        "city": "gharbia",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.587365"
+    },
+    {
+        "pharmacy_id": 593,
+        "pharmacy_name": "Davis, Phelps and Durham",
+        "city": "Giza",
+        "med_name": "Prednisone",
+        "med_code": 1013,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.587961"
+    },
+    {
+        "pharmacy_id": 945,
+        "pharmacy_name": "Page, Robinson and Collins",
+        "city": "gharbia",
+        "med_name": "Zolpidem",
+        "med_code": 1020,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.589655"
+    },
+    {
+        "pharmacy_id": 735,
+        "pharmacy_name": "Jones PLC",
+        "city": "Cairo",
+        "med_name": "Ibuprofen",
+        "med_code": 1005,
+        "available": true,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.591144"
+    },
+    {
+        "pharmacy_id": 453,
+        "pharmacy_name": "Hill, Williams and Armstrong",
+        "city": "portsaid",
+        "med_name": "Prednisone",
+        "med_code": 1013,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.593020"
+    },
+    {
+        "pharmacy_id": 560,
+        "pharmacy_name": "Andrade, Perry and Rodriguez",
+        "city": "portsaid",
+        "med_name": "Sertraline",
+        "med_code": 1019,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.593837"
+    },
+    {
+        "pharmacy_id": 162,
+        "pharmacy_name": "White and Sons",
+        "city": "Alexandria",
+        "med_name": "Amlodipine",
+        "med_code": 1012,
+        "available": true,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.594053"
+    },
+    {
+        "pharmacy_id": 133,
+        "pharmacy_name": "Griffin, Erickson and Taylor",
+        "city": "Alexandria",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.594523"
+    },
+    {
+        "pharmacy_id": 575,
+        "pharmacy_name": "Nelson Group",
+        "city": "Alexandria",
+        "med_name": "Hydrochlorothiazide",
+        "med_code": 1014,
+        "available": true,
+        "stock_qty": 8,
+        "timestamp": "2025-09-18T08:23:03.594673"
+    },
+    {
+        "pharmacy_id": 270,
+        "pharmacy_name": "Aguirre and Sons",
+        "city": "Aswan",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.594806"
+    },
+    {
+        "pharmacy_id": 842,
+        "pharmacy_name": "Myers, Harris and Johnson",
+        "city": "Cairo",
+        "med_name": "Amoxicillin",
+        "med_code": 1006,
+        "available": true,
+        "stock_qty": 43,
+        "timestamp": "2025-09-18T08:23:03.595393"
+    },
+    {
+        "pharmacy_id": 388,
+        "pharmacy_name": "Solomon, Obrien and Martin",
+        "city": "Cairo",
+        "med_name": "Augmentin",
+        "med_code": 1003,
+        "available": true,
+        "stock_qty": 30,
+        "timestamp": "2025-09-18T08:23:03.595818"
+    },
+    {
+        "pharmacy_id": 184,
+        "pharmacy_name": "Hayes LLC",
+        "city": "Aswan",
+        "med_name": "Omeprazole",
+        "med_code": 1008,
+        "available": false,
+        "stock_qty": 0,
+        "timestamp": "2025-09-18T08:23:03.595969"
+    },
+    {
+        "pharmacy_id": 268,
+        "pharmacy_name": "Johnson, Vaughn and Lopez",
+        "city": "portsaid",
+        "med_name": "Metformin",
+        "med_code": 1007,
+        "available": true,
+        "stock_qty": 41,
+        "timestamp": "2025-09-18T08:23:03.596312"
+    }
+]

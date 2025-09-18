@@ -1,0 +1,184 @@
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    hostname: zookeeper
+    container_name: zookeeper
+    ports:
+      - '2181:2181'
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    healthcheck:
+      test: echo srvr | nc zookeeper 2181 || exit 1
+      start_period: 10s
+      retries: 20
+      interval: 10s
+    networks:
+      - generation_data_bigdata
+
+  broker:
+    image: confluentinc/cp-kafka:7.4.0
+    hostname: broker
+    container_name: broker
+    ports:
+      - '29092:29092'
+      - '9092:9092'
+      - '9101:9101'
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: 'zookeeper:2181'
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
+      KAFKA_JMX_PORT: 9101
+      KAFKA_JMX_HOSTNAME: localhost
+    healthcheck:
+      test: nc -z localhost 9092 || exit -1
+      start_period: 15s
+      interval: 5s
+      timeout: 10s
+      retries: 10
+    networks:
+      - generation_data_bigdata
+
+  control-center:
+    image: confluentinc/cp-enterprise-control-center:7.4.0
+    hostname: control-center
+    container_name: control-center
+    depends_on:
+      broker:
+        condition: service_healthy
+    ports:
+      - "9021:9021"
+    environment:
+      CONTROL_CENTER_BOOTSTRAP_SERVERS: 'broker:29092'
+      CONTROL_CENTER_REPLICATION_FACTOR: 1
+      CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS: 1
+      CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS: 1
+      CONFLUENT_METRICS_TOPIC_REPLICATION: 1
+      CONFLIENT_METRICS_ENABLE: 'false'
+      PORT: 9021
+    networks:
+      - generation_data_bigdata
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:9021/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+  # namenode:
+  #   image: bde2020/hadoop-namenode:2.0.0-hadoop2.7.4-java8
+  #   container_name: namenode
+  #   environment:
+  #     - CLUSTER_NAME=test
+  #     - HDFS_NAMENODE_USER=root
+  #   ports:
+  #     - "9870:9870"
+  #     - "8020:8020"
+  #   volumes:
+  #     - hdfs_namenode:/hadoop/dfs/name
+  #   env_file:
+  #     - e:/medical project/hadoop.env
+  #   networks:
+  #     - generation_data_bigdata
+
+  # # =========================
+  # # HDFS - DataNode
+  # # =========================
+  # datanode:
+  #   image: bde2020/hadoop-datanode:2.0.0-hadoop2.7.4-java8
+  #   container_name: datanode
+  #   environment:
+  #     - HDFS_DATANODE_USER=root
+  #   volumes:
+  #     - hdfs_datanode:/hadoop/dfs/data
+  #   env_file:
+  #     - e:/medical project/hadoop.env
+  #   depends_on:
+  #     - namenode
+  #   ports:
+  #     - "9864:9864"
+  #   networks:
+  #     - generation_data_bigdata
+  x-spark-common: &spark-common
+    image: bitnami/spark:3.5.0
+    volumes:
+      - e:/medical project/batch_pipline/spark_code:/opt/bitnami/spark/jobs
+      - e:/medical project/generate_data/output_data:/opt/bitnami/spark/jobs/data
+      - e:/medical project/kafka/spark_script:/opt/bitnami/spark/jobs/data/kafka
+    command: bin/spark-class org.apache.spark.deploy.worker.Worker spark://spark-master:7077
+    depends_on:
+      - spark-master
+    environment:
+      SPARK_MODE : worker
+      SPARK_WORKER_CORES: 2
+      SPARK_WORKER_MEMORY: 1G
+      SPARK_MASTER_URL: spark://spark-master:7077
+    networks:
+      - generation_data_bigdata
+
+
+  spark-master:
+    image: bitnami/spark:3.5.0
+    volumes:
+      - e:/medical project/batch_pipline/spark_code:/opt/bitnami/spark/jobs
+      - e:/medical project/generate_data/output_data:/opt/bitnami/spark/jobs/data
+      - e:/medical project/kafka/spark_script:/opt/bitnami/spark/jobs/data/kafka
+    command: bin/spark-class org.apache.spark.deploy.master.Master
+    ports:
+      - "9090:8080"
+      - "7077:7077"
+    networks:
+      - generation_data_bigdata
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: clickhouse
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    environment:
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: "123"
+      CLICKHOUSE_DB: default
+    volumes:
+      - ./data/clickhouse/config/default-password.xml:/etc/clickhouse-server/users.d/default-password.xml
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_logs:/var/log/clickhouse-server
+    networks:
+      - generation_data_bigdata
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_PLUGINS_PREINSTALL=grafana-clickhouse-datasource
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - generation_data_bigdata
+
+
+  spark-worker-1:
+    <<: *spark-common
+  # spark-worker-2:
+  #   <<: *spark-common
+  # spark-worker-3:
+  #   <<: *spark-common
+  # spark-worker-4:
+  #   <<: *spark-common
+
+networks:
+  generation_data_bigdata:
+    driver: bridge
+volumes:
+  hdfs_namenode:
+  hdfs_datanode:
+  clickhouse_logs:
+  clickhouse_data:
+  grafana_data:

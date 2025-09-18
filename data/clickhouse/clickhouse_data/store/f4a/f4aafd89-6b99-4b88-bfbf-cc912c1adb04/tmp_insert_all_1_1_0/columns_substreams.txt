@@ -1,0 +1,18 @@
+columns substreams version: 1
+8 columns:
+1 substreams for column `pharmacy_id`:
+	pharmacy_id
+1 substreams for column `pharmacy_name`:
+	pharmacy_name
+1 substreams for column `city`:
+	city
+1 substreams for column `med_name`:
+	med_name
+1 substreams for column `med_code`:
+	med_code
+1 substreams for column `available`:
+	available
+1 substreams for column `stock_qty`:
+	stock_qty
+1 substreams for column `timestamp`:
+	timestamp
